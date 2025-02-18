@@ -12,31 +12,31 @@ export default function Footer() {
     {
       id: 1,
       ariaLabel: 'linkedin',
-      href: 'https://www.linkedin.com/in/hadil-ben-abdallah/',
+      href: 'https://www.linkedin.com/in/tendai-douglas-a6201023b/',
       icon: <AiFillLinkedin size={40} />,
     },
     {
       id: 2,
       ariaLabel: 'github',
-      href: 'https://github.com/Hadil-Ben-Abdallah',
+      href: 'https://github.com/2ktachie',
       icon: <AiFillGithub size={40} />,
     },
     {
       id: 3,
       ariaLabel: 'dailydev',
-      href: 'https://app.daily.dev/hadilbenabdallah',
+      href: 'https://app.daily.dev/tendaitachivona',
       icon: <SiDailydotdev size={40} />,
     },
     {
       id: 4,
       ariaLabel: 'codepen',
-      href: 'https://codepen.io/Hadil-Ben-Abdallah',
+      href: 'https://codepen.io/2ktachie',
       icon: <AiOutlineCodepen size={40} />,
     },
     {
       id: 5,
       ariaLabel: 'leetcode',
-      href: 'https://leetcode.com/u/hadilbenabdallah/',
+      href: 'https://leetcode.com/u/tachivonatendai/',
       icon: <TbBrandLeetcode size={40} />,
     },
   ];
@@ -55,7 +55,7 @@ export default function Footer() {
         ))}
       </div>
       <p className="text-center mt-4 text-lg font-bold">
-        © {new Date().getFullYear()} Hadil Ben Abdallah. All rights reserved.
+        © {new Date().getFullYear()} Tendai Douglas Tachivona. All rights reserved.
       </p>
     </footer>
   );

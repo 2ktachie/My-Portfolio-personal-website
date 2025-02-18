@@ -42,20 +42,20 @@ export default function MyApp({ Component, pageProps }) {
         <meta charSet="UTF-8" />
         <meta
           name="description"
-          content="I'm a Frontend Developer with 2 Years Experience of Self Learning and Projects Experience,"
+          content="I'm a Software Developer with 2 Years Experience of Self Learning and Projects Experience,"
         />
-        <meta name="copyright" content="Hadil Ben Abdallah" />
+        <meta name="copyright" content="Tendai Douglas Tachivona" />
         <meta
           name="keywords"
-          content="Hadil, Hadil Ben Abdallah, hadilbenabdallah, Ben Abdallah, Abdallah, frontend, Front-end, backend, Back-end, fullstack, Full-stack, engineer, Engineer, React, Reactjs, Next, Next.js, Web, webdeveloper, freelancer, uiux, designer, bussiness, web3, PWA, performance, SEO, Optimization"
+          content="Tendai, Tendai Douglas Tachivona, tendaidouglastachivona, Tendai Douglas, Tachivona, frontend, Front-end, backend, Back-end, fullstack, Full-stack, engineer, Engineer, React, Reactjs, Next, Next.js, Web, webdeveloper, freelancer, uiux, designer, bussiness, web3, PWA, performance, SEO, Optimization"
         />
-        <meta name="author" content="Hadil Ben Abdallah" />
-        <meta property="og:title" content="Hadil Ben Abdallah Software Engineer" />
+        <meta name="author" content="Tendai Douglas Tachivona" />
+        <meta property="og:title" content="Tendai Douglas Tachivona Software Developer" />
         <meta
           property="og:description"
-          content="Hello My Name is Hadil Ben Abdallah, I'm a Software Engineer specalize in Full Stack development"
+          content="Hello My Name is Tendai Douglas Tachivona, I'm a Software Developer specalizing in Full Stack development"
         />
-        <meta property="og:url" content="https://hadilbenabdallah.vercel.app/" />
+        <meta property="og:url" content="(to be added once hosted)" />
         <meta name="robots" content="all" />
       </Head>
       <style jsx global>{`

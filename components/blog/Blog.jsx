@@ -181,7 +181,7 @@ const Blog = () => {
   const startIndex = (currentPage - 1) * POSTS_PER_PAGE;
   const visiblePosts = blogPosts.slice(startIndex, startIndex + POSTS_PER_PAGE);
 
-  const blogText = `Sharing knowledge through writing is a passion of mine, as it allows me to reflect on my learning journey and help others along the way. Below are some of my articles on programming, where I explore key concepts and trends.`;
+  const blogText = `I love breaking down complex programming concepts and sharing what I learn along the way. Writing about tech not only helps me solidify my understanding but also allows me to connect with others who are just as passionate. Check out some of my articles where I explore key trends, best practices, and deep dives into coding.`;
 
   return (
     <section id="blog">
