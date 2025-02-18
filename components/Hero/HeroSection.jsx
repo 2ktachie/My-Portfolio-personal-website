@@ -31,7 +31,7 @@ const HeroSection = () => {
               </div>
             </div>
             <p className="mt-6 text-xl text-justify leading-8 ">
-              I&apos;m Hadil Ben Abdallah. A passionate Software Engineer from Tunisia.📍 Specializing in full-stack web development. {' '}
+              I&apos;m Tendai Douglas Tachivona. A passionate Software Engineer from Zimbabwe📍. Specializing in  full-stack web development, cloud solutions, and DevOps. {' '}
             </p>
           </div>
         </div>

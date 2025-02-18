@@ -2,6 +2,8 @@ import { useEffect, useRef, useState } from 'react';
 import HyperOne from '../customH1/HyperOne';
 import emailjs from '@emailjs/browser';
 
+
+// do research to swithch to node mailer if emailjs doesn't work
 export default function ContactMe() {
   const form = useRef();
   const [isMessageSent, setMessageSent] = useState(false);

@@ -60,7 +60,7 @@ const About = () => {
     []
   );
   const aboutText = 
-      `As a full-stack software engineer, I specialize in creating high-performance web applications that are both visually engaging and scalable. With expertise in modern frameworks like React, Next.js, and Django, I build intuitive, responsive front-end interfaces, while ensuring robust and secure back-end systems. I focus on writing clean, maintainable code and prioritize performance, reliability, and scalability in every project. Collaboration and communication are key to my process, and I’m dedicated to delivering solutions that exceed expectations and drive long-term value.`;
+      `This portfolio serves as a showcase of my technical expertise, side projects, and achievements in the tech space. It highlights my journey in MERN stack development, cloud engineering, and infrastructure automation. I focus on writing clean, maintainable code and prioritize performance, reliability, and scalability in every project. Collaboration and communication are key to my process, and I’m dedicated to delivering solutions that exceed expectations and drive long-term value.`;
   return useMemo(
     () => (
       <div id="about" className={`${styles['about-container']}`}>
@@ -70,17 +70,17 @@ const About = () => {
             <HyperOne value={'About Me'} />
             <h2 className="text-2xl">
               {' '}
-              Junior Full-stack software Engineer 
+              Junior Software Developer 
             </h2>
             <p className="text-xl text-justify">{aboutText}</p>
             <div className={`${styles.personalInfo}`}>
               <div>
                 <span className="font-bold">Full Name:</span>
-                <span>Hadil Ben Abdallah</span>
+                <span>Tendai Douglas Tachivona</span>
               </div>
               <div>
                 <span className="font-bold">Email:</span>
-                <span>hadilbenabdallah111@gmail.com</span>
+                <span>tachivonatendai@gmail.com</span>
               </div>
               <div>
                 <span className="font-bold">Field:</span>
@@ -124,9 +124,9 @@ const About = () => {
                   className={`${
                     isVisible ? styles['fade-in2'] : styles['progress-line']
                   }`}
-                  value="85%"
+                  value="75%"
                   style={{
-                    width: '85%',
+                    width: '75%',
                   }}
                 ></div>
               </div>
@@ -154,9 +154,9 @@ const About = () => {
                   className={`${
                     isVisible ? styles['fade-in4'] : styles['progress-line']
                   }`}
-                  value="80%"
+                  value="90%"
                   style={{
-                    width: '80%',
+                    width: '90%',
                   }}
                 ></div>
               </div>

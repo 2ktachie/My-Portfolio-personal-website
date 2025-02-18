@@ -11,6 +11,7 @@ const SkillsSphere = dynamic(() => import('./SkillsSphere'), {
 const Skills = () => {
   const [showSphere, setShowSphere] = useState(false);
 
+  // I need to add terraform, AWS, Terminal/Linux Ubuntu and GO
   const skillsData = [
     { name: 'HTML5', imageSrc: '/svg/skills/html.svg' },
     { name: 'CSS', imageSrc: '/svg/skills/css.svg' },
@@ -18,21 +19,21 @@ const Skills = () => {
     { name: 'Bootstrap', imageSrc: '/svg/skills/bootstrap.svg' },
     { name: 'Bootstrap', imageSrc: '/svg/skills/tailwind.svg' },
     { name: 'React', imageSrc: '/svg/skills/react.svg' },
-    { name: 'Next.js', imageSrc: '/svg/skills/nextjs.svg' },
-    { name: 'Python', imageSrc: '/svg/skills/python.svg' },
-    { name: 'Django', imageSrc: '/svg/skills/django.svg' },
-    { name: 'Graphql', imageSrc: '/svg/skills/graphql.svg' },
+    // { name: 'Next.js', imageSrc: '/svg/skills/nextjs.svg' },
+    // { name: 'Python', imageSrc: '/svg/skills/python.svg' },
+    // { name: 'Django', imageSrc: '/svg/skills/django.svg' },
+    // { name: 'Graphql', imageSrc: '/svg/skills/graphql.svg' },
     { name: 'Express', imageSrc: '/svg/skills/express.svg' },
     { name: 'Node', imageSrc: '/svg/skills/nodejs.svg' },
-    { name: 'MuSQL', imageSrc: '/svg/skills/mysql.svg' },
+    // { name: 'MuSQL', imageSrc: '/svg/skills/mysql.svg' },
     { name: 'Postgresql', imageSrc: '/svg/skills/postgresql.svg' },
-    { name: 'Mongodb', imageSrc: '/svg/skills/mongo.svg' },
+    // { name: 'Mongodb', imageSrc: '/svg/skills/mongo.svg' },
     { name: 'Git', imageSrc: '/svg/skills/git.svg' },
     { name: 'GitHub', imageSrc: '/svg/skills/github.svg' },
-    { name: 'GitLab', imageSrc: '/svg/skills/gitlab.svg' },
+    // { name: 'GitLab', imageSrc: '/svg/skills/gitlab.svg' },
     { name: 'GitLab', imageSrc: '/svg/skills/markdown.svg' },
     { name: 'VSCode', imageSrc: '/svg/skills/vscode.svg' },
-    { name: 'Notion', imageSrc: '/svg/skills/notion.svg' },
+    // { name: 'Notion', imageSrc: '/svg/skills/notion.svg' },
     { name: 'Notion', imageSrc: '/svg/skills/slack.svg' }
   ];
 
